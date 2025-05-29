@@ -13,6 +13,7 @@ A hybrid movie recommendation engine that combines semantic search with populari
 
 # Technical Implementation
   Data Processing Pipeline
+  
   Data Extraction:
   
   Extracts genres, keywords, and overviews from https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata/data 
@@ -22,6 +23,7 @@ A hybrid movie recommendation engine that combines semantic search with populari
   Popularity score integration from TMDB metrics
 
   Recommendation Engine
+  
   Content-Based Filtering:
   
   all-mpnet-base-v2 model generates 768-dimensional embeddings
