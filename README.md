@@ -3,13 +3,13 @@
 A hybrid movie recommendation engine that combines semantic search with popularity-based ranking, powered by Sentence Transformers and TMDB data. The system suggests films based on content similarity to user preferences while balancing recommendations with trending movies.
 
 # Key Features
-Hybrid Recommendation Approach: Blends content-based filtering with popularity ranking
-
-Semantic Search: Uses all-mpnet-base-v2 Sentence Transformer for deep content understanding
-
-TMDB Integration: Leverages comprehensive movie metadata from TMDB dataset
-
-Interactive Interface: Gradio-powered UI for intuitive user experience
+  Hybrid Recommendation Approach: Blends content-based filtering with popularity ranking
+  
+  Semantic Search: Uses all-mpnet-base-v2 Sentence Transformer for deep content understanding
+  
+  TMDB Integration: Leverages comprehensive movie metadata from TMDB dataset
+  
+  Interactive Interface: Gradio-powered UI for intuitive user experience
 
 # Technical Implementation
   Data Processing Pipeline
@@ -28,15 +28,15 @@ Interactive Interface: Gradio-powered UI for intuitive user experience
   
   Cosine similarity for semantic matching
 
-Popularity Bias:
+  Popularity Bias:
 
   Weighted combination of semantic similarity and TMDB popularity
   
   Adjustable bias parameter
 
 # Deployment
-Gradio Interface:
-
-User input: Movie title or description
-
-Output: Top k recommendations based on user selection
+  Gradio Interface:
+  
+  User input: Movie title or description
+  
+  Output: Top k recommendations based on user selection
